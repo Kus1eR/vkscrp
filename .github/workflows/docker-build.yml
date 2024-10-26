@@ -21,8 +21,8 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build -t myusername/vkscrp:latest .
+          docker build -t kus1er/vkscrp:latest .
 
       - name: Push the Docker image
         run: |
-          docker push myusername/vkscrp:latest
+          docker push kus1er/vkscrp:latest
